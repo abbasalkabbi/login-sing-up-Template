@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="abbas-alkaabi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+</head>
+
+<body>
+    <!--Start div for container -->
+    <div id="container-login">
+        <!--Start div for title-->
+        <div id="title">
+            <i class="material-icons lock">lock</i> Login
+        </div>
+        <!--End div for title-->
+        <!--Start form login -->
+        <form>
+            <!--Start div for username   -->
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+            <!--End div for username   -->
+
+            <div class="clearfix"></div>
+            <!--Start div for password-->
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+            <!--End div for password-->
+            <!--Start div for remember-me-->
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #DDD">Remember Me</span>
+            </div>
+            <!--End div for remember-me-->
+            <!--input go log in-->
+            <input type="submit" value="Log In" />
+        </form>
+        <!--End form login -->
+        <!--Start div for forgot password -->
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+         <!--End div for forgot password -->
+        <!--Start div for privacy -->
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+        <!--End div for privacy -->
+        <!--Start div for link  sing up -->
+        <div class="register">
+            Don't have an account yet?
+            <a href="register.html"><button id="register-link">Sing up</button></a>
+        </div>
+          <!--End  div for link  sing up -->
+    </div>
+    <!--End div for container -->
+</body>
+
+</html>
